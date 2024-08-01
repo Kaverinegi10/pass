@@ -116,7 +116,6 @@ function handleCheckboxChange(){
         handleSlider();
     }
 }
-
 allCheckboxes.forEach((checkbox)=>{
     checkbox.addEventListener('change',handleCheckboxChange);
 })
@@ -125,7 +124,6 @@ inputSlider.addEventListener('input', (e) => {
     passwordLength = e.target.value;
     handleSlider();
 })
-
 copyBtn.addEventListener('click', () => {
     if(passwordDisplay.value)
         copyContent();
