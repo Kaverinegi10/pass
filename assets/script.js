@@ -86,6 +86,7 @@ function shufflePassword(array){
     array.forEach((el) => (str += el));
     return str;
 }
+
 async function copyContent(){
     try{
    await navigator.clipboard.writeText(passwordDisplay.value);
@@ -102,6 +103,7 @@ async function copyContent(){
     }, 2000);
 
 }
+
 function handleCheckboxChange(){
     checkCount=0;
     allCheckboxes.forEach((checkbox)=>{
