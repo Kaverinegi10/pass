@@ -26,6 +26,7 @@ function handleSlider(){
     const max = inputSlider.max;
     inputSlider.style.backgroundSize = ( (passwordLength - min)*100/(max - min)) + "% 100%"
 }
+
 function setIndicator(color) {
     indicator.style.backgroundColor = color;
     indicator.style.boxShadow= `0px 0px 12px  1px ${color}`;
@@ -50,7 +51,6 @@ function generateSymbol() {
     const randNum = getRandInteger(0, symbols.length);
     return symbols.charAt(randNum);
 }
-
 function calcStrength() {
     let hasUpper = false;
     let hasLower = false;
