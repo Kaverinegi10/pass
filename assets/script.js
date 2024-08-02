@@ -131,7 +131,6 @@ copyBtn.addEventListener('click', () => {
 
 generateButton.addEventListener('click', () => {
     //none of the checkbox are selected
-
     if(checkCount == 0) 
         return;
 
