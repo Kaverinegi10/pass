@@ -160,7 +160,6 @@ h1{
     position:relative;
     border-radius: 0.35rem;
 }
-
 .check input:checked{
   background-color: var(--vb-cyan);  
 }
@@ -178,7 +177,6 @@ h1{
     color:var(--pl-white);
     font-size: 1.25rem;
     letter-spacing: 0.75px;
-
 }
 .slider{
     appearance: none;
